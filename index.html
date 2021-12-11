@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chit-Chat </title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="chat.png" alt="">
+        <h1>Welcome To iDiscuss Chat App </h1>
+       
+    </nav>
+    <div class="container">
+        <p> Messages are end-to-end encrypted. <br>No one outside of this chat,not even Chit-Chat ,can read to them.</p>
+       </div>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text"  name="messageInp" placeholder="Say,Something here !" id="messageInp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
