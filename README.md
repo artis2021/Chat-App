@@ -1,7 +1,9 @@
 
 # Chat-App
 
-Basic chat application (WhatsApp-clone App) that lets users text,chat with individuals or groups.
+This is a Real Time WhatsApp Web Chat Application. For real time communication between server and client Websocket are implemented using Node.js Channels package which allows to use WebSockets and other non-HTTP protocols . The regular http requests and javascript fetch api are also used in this project.
+
+This app allows user to do text chatting with other users individually or do group text chatting with many users. Users have the option to create new groups add contacts to their groups and assign any of the group member admin rights to the group. The admins of the group will be able to add or remove group members just like in Whatsapp.
 
 
 
