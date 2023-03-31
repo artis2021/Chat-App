@@ -1,4 +1,3 @@
-
 # Chat-App
 
 This is a Real Time WhatsApp Web Chat Application. For real time communication between server and client Websocket are implemented using Node.js Channels package which allows to use WebSockets and other non-HTTP protocols . The regular http requests and javascript fetch api are also used in this project.
